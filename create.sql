@@ -12,7 +12,7 @@ CREATE TABLE Patient
 CREATE TABLE Hospital
 (
     hospital_id INT NOT NULL,
-    hospital_name VARCHAR(30) NOT NULL,
+    hospital_name VARCHAR(50) NOT NULL,
     PRIMARY KEY (hospital_id)
 );
 
